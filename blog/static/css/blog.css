@@ -8,3 +8,18 @@ h1 a {
     color: #FCA205;
     font-family: 'Lobster';
 }
+#floatdv{
+position:fixed; _position: absolute; _z-index: -1;
+with: 120px;
+overflow: hidden;
+right: 11px;
+top: 500px;
+background-color: transparent;
+margin: 0;
+padding: 0;
+}
+#floatdv ul {list-style: none;}
+#floatdv li{margin-bottom: 2px; text-align: center;}
+#floatdv a {color: #5D5D5D; border: 0; text-decoration: none; display: block;}
+#floatdv a:hover, #floatdv .menu {background-color: #5D5D5D; color: #fff;}
+#floatdv .menu, #floatdv .last {margin-bottom: 0px;}
