@@ -1,6 +1,11 @@
+{% load staticfiles %}
 <html>
     <head>
         <title>Coin Box</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+        <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
     </head>
     <body>
         <div>
@@ -22,6 +27,9 @@
             <p>published: 12.01.2018, 12:14</p>
             <h2><a href="">두번째 포스트</a></h2>
             <p>Second Post.</p>
+        </div>
+        <div>
+          <a class="twitter-timeline" data-width="300" data-height="600" href="https://twitter.com/whatst_durango?ref_src=twsrc%5Etfw">Tweets by whatst_durango</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
     </body>
 </html>
