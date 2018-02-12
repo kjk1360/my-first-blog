@@ -9,7 +9,8 @@
     </head>
     <body>
         <div class="page-header">
-          <h1><a href="kjk1360.pythonanywhere.com">Coin Box</a></h1>
+          <h1><a href="{% url 'post_list' %}">Coin Box</a></h1>
+          <a href="{% url 'post_new' %}" class="top-menu">post추가<span class="glyphicon glyphicon-plus"></span></a>
         </div>
         <div class="content container">
             <div class="row">
