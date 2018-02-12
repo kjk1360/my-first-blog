@@ -10,10 +10,10 @@ h1 a {
 }
 #floatdv{
 position:fixed; _position: absolute; _z-index: -1;
-with: 120px;
+width: 240px;
 overflow: hidden;
 right: 11px;
-top: 500px;
+top: 50px;
 background-color: transparent;
 margin: 0;
 padding: 0;
